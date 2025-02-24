@@ -25,7 +25,7 @@ void add_SSE(long size, std::vector<int>& first_array, const std::vector<int>& s
         first_array[i] += second_array[i];
     }
 }
-
+// changes made here
 int main() {
     constexpr long size = 67108864;
     std::vector<int> array1(size, 1);
